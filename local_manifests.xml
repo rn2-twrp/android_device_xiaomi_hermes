@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="bjsiu/hermes-twrp-omni" path="device/xiaomi/hermes" remote="github" revision="master" />
+  <project name="bjsiu/hermes-twrp-test" path="device/xiaomi/hermes" remote="github" revision="master" />
 </manifest>
