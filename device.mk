@@ -6,12 +6,6 @@ LOCAL_PATH := device/xiaomi/hermes
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
-else
-	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
-endif
-
 # AAPT
 PRODUCT_AAPT_CONFIG := normal xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
