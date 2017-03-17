@@ -19,7 +19,8 @@ make -j4 clobber && make -j4 recoveryimage
 ```
 
 # Current Bugs
-1. Still testing and not working
+1. Battery XX% jumps (bug of 6.0 kernel)
+2. 'Reboot bootloader' is fixed on this version (prebuilt kernel version still not be fixed)
 
 # License
-Apache License v2.0 (for all files)
+Apache License v2.0 (for all files expert kernel source)
